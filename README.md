@@ -42,7 +42,10 @@ The saved file contains a full pipeline (preprocessor + model) so inference work
 ## Notes
 - If `Dataset/clean_house_data.csv` exists, training will use it.
 - Otherwise it falls back to `Dataset/kc_house_data.csv`.
-
+- 
+Note:
+The trained model file (house_price_model.pkl) is not included in this repository because it exceeds GitHub's file size limit.
+To run the project, train the model using the notebook or dataset provided.
 =======
 # House--price--prediction
 Machine learning project for predicting house price using Python and Streamlit
