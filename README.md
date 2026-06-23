@@ -1,52 +1,82 @@
-<<<<<<< HEAD
-# House Price Prediction (kc_house_data)
+ # House Price Prediction Using Machine Learning
 
-This project predicts house prices using **machine learning regression** on the **kc_house_data.csv** dataset.
+## Project Overview
 
-## What’s included
-- Data preprocessing (missing values + scaling + encoding)
-- EDA plots (saved under `Documentation/`)
-- Feature engineering (lightweight engineered features)
-- Model comparison:
-  - Linear Regression
-  - Decision Tree Regressor
-  - Random Forest Regressor
-- Model evaluation metrics:
-  - MAE, MSE, RMSE, R2
-- Best model saved to:
-  - `Model/house_price_model.pkl`
-- Streamlit app for interactive prediction:
-  - `Streamlit_App/app.py`
+This project predicts house prices using Machine Learning algorithms based on various house features such as bedrooms, bathrooms, living area, lot area, and other property characteristics.
 
-## How to run (scripts)
-From the project root:
+The project includes data preprocessing, exploratory data analysis (EDA), model training, model evaluation, and deployment using Streamlit.
 
-```bash
-python Notebook/02_feature_engineering.py
-python Notebook/01_eda_and_plots.py
-python Notebook/03_model_training_and_comparison.py
-```
+## Features
 
-## Streamlit application
-Run:
+* Data Cleaning and Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Machine Learning Model Training
+* House Price Prediction
+* Interactive Streamlit Web Application
 
-```bash
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Streamlit
+
+## Dataset
+
+Dataset Used: King County House Sales Dataset (kc_house_data.csv)
+
+## Project Structure
+
+HousePricePrediction/
+
+├── Dataset/
+
+├── Documentation/
+
+├── Model/
+
+├── Notebook/
+
+├── Streamlit_App/
+
+├── README.md
+
+└── requirements.txt
+
+## How to Run
+
+1. Install required libraries:
+
+pip install -r requirements.txt
+
+2. Run the Streamlit application:
+
 streamlit run Streamlit_App/app.py
-```
 
-## Model file
-- `Model/house_price_model.pkl`
+## Output
 
-The saved file contains a full pipeline (preprocessor + model) so inference works reliably.
+The application allows users to enter house details and receive a predicted house price using the trained machine learning model.
 
-## Notes
-- If `Dataset/clean_house_data.csv` exists, training will use it.
-- Otherwise it falls back to `Dataset/kc_house_data.csv`.
-- 
+## Future Improvements
+
+* Improve model accuracy
+* Deploy on cloud platforms
+* Add advanced visualizations
+* Support multiple datasets
+
 Note:
 The trained model file (house_price_model.pkl) is not included in this repository because it exceeds GitHub's file size limit.
 To run the project, train the model using the notebook or dataset provided.
-=======
+
 # House--price--prediction
 Machine learning project for predicting house price using Python and Streamlit
->>>>>>> c7df29bd39b0390de91366278901b0dd91d7ecf1
+
+## Author
+
+Saumya Mishra
+AIML Summer Internship 2026
+
